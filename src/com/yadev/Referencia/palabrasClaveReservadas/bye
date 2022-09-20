@@ -1,0 +1,5 @@
+byte myNum = 100;
+System.out.println(myNum);
+
+Definición y uso
+La bytepalabra clave es un tipo de datos que puede almacenar números enteros de -128 a 127.

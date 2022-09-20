@@ -1,0 +1,23 @@
+Devuelve el arcocoseno de diferentes números:
+
+System.out.println(Math.acos(0.64));
+System.out.println(Math.acos(-0.4));
+System.out.println(Math.acos(0));
+System.out.println(Math.acos(1));
+System.out.println(Math.acos(-1));
+System.out.println(Math.acos(2));
+
+Definición y uso
+El acos() método devuelve el valor de arco coseno de un número.
+
+Sugerencia: acos(-1) devuelve el valor de PI.
+
+Sintaxis
+public static double abs(double number)
+
+Valores paramétricos
+Parameter	Description
+number	    Required. A number to find the arc cosine of, in the range -1 to 1. If the value is outside -1 to 1, it returns NaN (Not a Number).
+
+Detalles técnicos
+Devoluciones:	Un double valor, que representa el arco coseno de un número.

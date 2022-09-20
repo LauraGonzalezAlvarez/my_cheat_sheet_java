@@ -1,0 +1,25 @@
+Palabra clave predeterminada de Java
+
+Ejemplo
+Especifique algún código para ejecutar si no hay coincidencia de mayúsculas y minúsculas en un bloque de cambio:
+
+int day = 4;
+switch (day) {
+  case 6:
+    System.out.println("Today is Saturday");
+    break;
+  case 7:
+    System.out.println("Today is Sunday");
+    break;
+  default:
+    System.out.println("Looking forward to the Weekend");
+}
+/ Outputs "Looking forward to the Weekend"
+
+Definición y uso
+La defaultpalabra clave el bloque de código predeterminado en una switchinstrucción.
+
+La defaultpalabra clave especifica algún código para ejecutar si no hay coincidencia de mayúsculas y minúsculas en el conmutador.
+
+Nota: si la defaultpalabra clave se usa como la última declaración en un bloque de cambio, no necesita un break.
+

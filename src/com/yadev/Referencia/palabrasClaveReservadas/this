@@ -1,0 +1,28 @@
+Usando this con un atributo de clase (x):
+
+public class Main {
+  int x;
+
+  // Constructor with a parameter
+  public Main(int x) {
+    this.x = x;
+  }
+
+  // Call the constructor
+  public static void main(String[] args) {
+    Main myObj = new Main(5);
+    System.out.println("Value of x = " + myObj.x);
+  }
+}
+
+Definición y uso
+La this palabra clave se refiere al objeto actual en un método o constructor.
+
+El uso más común de la thispalabra clave es eliminar la confusión entre atributos de clase y parámetros con el mismo nombre (porque un atributo de clase está sombreado por un parámetro de método o constructor). Si omite la palabra clave en el ejemplo anterior, el resultado sería "0" en lugar de "5".
+
+this también se puede utilizar para:
+- Invocar constructor de clase actual
+- Invocar método de clase actual
+- Devuelve el objeto de clase actual
+- Pasar un argumento en la llamada al método
+- Pasar un argumento en la llamada al constructor

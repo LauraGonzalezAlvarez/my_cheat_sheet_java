@@ -1,0 +1,30 @@
+Compara dos cadenas:
+
+String myStr1 = "Hello";
+String myStr2 = "Hello";
+System.out.println(myStr1.compareTo(myStr2)); // Returns 0 because they are equal
+
+Definición y uso
+El compareTo()método compara dos cadenas lexicográficamente.
+
+La comparación se basa en el valor Unicode de cada carácter de las cadenas.
+
+El método devuelve 0 si la cadena es igual a la otra cadena. Se devuelve un valor menor que 0 si la cadena es menor que la otra cadena (menos caracteres) y un valor mayor que 0 si la cadena es mayor que la otra cadena (más caracteres).
+
+Sugerencia: use compareToIgnoreCase() para comparar dos cadenas lexicográficamente, ignorando las diferencias entre mayúsculas y minúsculas.
+
+Sugerencia: utilice el método equals() para comparar dos cadenas sin tener en cuenta los valores Unicode.
+
+Sintaxis
+public int compareTo(String string2)
+public int compareTo(Object object)
+
+Valores paramétricos
+Parameter	Description
+string2	    A String, representing the other string to be compared
+object	    An Object, representing an object to be compared
+
+Detalles técnicos
+Devoluciones:	Un intvalor: 0 si la cadena es igual a la otra cadena.
+                < 0 si la cadena es lexicográficamente menor que la otra cadena
+                > 0 si la cadena es lexicográficamente mayor que la otra cadena (más caracteres)

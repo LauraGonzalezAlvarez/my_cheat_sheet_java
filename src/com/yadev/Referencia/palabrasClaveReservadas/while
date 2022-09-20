@@ -1,0 +1,32 @@
+En el siguiente ejemplo, el código en el bucle se ejecutará una y otra vez,
+siempre que una variable i sea menor que 5:
+
+int i = 0;
+
+while (i < 5) {
+  System.out.println(i);
+  i++;
+}
+
+Definición y uso
+El while bucle recorre un bloque de código siempre que se cumpla una condición específica true.
+
+Nota:
+¡No olvide aumentar la variable utilizada en la condición, de lo contrario,
+el ciclo nunca terminará!
+
+Más ejemplos
+El do/while bucle es una variante del while bucle.
+Este ciclo ejecutará el bloque de código una vez, antes de verificar si la condición es verdadera,
+luego repetirá el ciclo mientras la condición sea verdadera:
+
+Ejemplo
+
+int i = 0;
+
+do {
+  System.out.println(i);
+  i++;
+}
+while (i < 5);
+

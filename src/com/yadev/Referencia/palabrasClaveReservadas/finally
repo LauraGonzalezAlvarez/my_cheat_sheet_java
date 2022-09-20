@@ -1,0 +1,13 @@
+Ejecute el código, después de intentar... atrapar, independientemente del resultado:
+
+try {
+  int[] myNumbers = {1, 2, 3};
+  System.out.println(myNumbers[10]);
+} catch (Exception e) {
+  System.out.println("Something went wrong.");
+} finally {
+  System.out.println("The 'try catch' is finished.");
+}
+
+Definición y uso
+La finally palabra clave se usa para ejecutar código (usado con excepciones - declaraciones try..catch) sin importar si hay una excepción o no.

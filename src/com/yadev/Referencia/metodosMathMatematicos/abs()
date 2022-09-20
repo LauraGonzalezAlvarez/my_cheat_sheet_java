@@ -1,0 +1,23 @@
+Devuelve el valor absoluto (positivo) de diferentes números:
+
+System.out.println(Math.abs(-4.7));
+System.out.println(Math.abs(4.7));
+System.out.println(Math.abs(3));
+
+Definición y uso
+El abs() método devuelve el valor absoluto (positivo) de un número.
+
+Sintaxis
+Uno de los siguientes:
+
+public static double abs(double number)
+public static float abs(float number)
+public static int abs(int number)
+public static long abs(long number)
+
+Valores paramétricos
+Parameter	Description
+number	    Required. Specifies a number
+
+Detalles técnicos
+Devoluciones:	Un valor double, o que representa floatel valor absoluto del número especificadointlong

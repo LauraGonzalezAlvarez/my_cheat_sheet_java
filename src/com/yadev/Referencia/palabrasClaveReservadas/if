@@ -1,0 +1,48 @@
+Pruebe dos valores para averiguar si 20 es mayor que 18. Si la condición es true, imprima algo de texto:
+
+if (20 > 18) {
+  System.out.println("20 is greater than 18");
+}
+
+Definición y uso
+La ifinstrucción especifica un bloque de código Java que se ejecutará si se cumple una condición true.
+
+Java tiene las siguientes declaraciones condicionales:
+
+Úselo ifpara especificar un bloque de código que se ejecutará, si una condición especificada es verdadera
+Se usa elsepara especificar un bloque de código a ejecutar, si la misma condición es falsa
+Úselo else ifpara especificar una nueva condición para probar, si la primera condición es falsa
+Úselo switchpara especificar muchos bloques alternativos de código para ejecutar
+Más ejemplos
+Ejemplo
+Use la ifdeclaración para probar variables:
+
+int x = 20;
+int y = 18;
+if (x > y) {
+  System.out.println("x is greater than y");
+}
+
+Ejemplo
+Utilice la elseinstrucción para especificar un bloque de código que se ejecutará si la condición es false.
+
+int time = 20;
+if (time < 18) {
+  System.out.println("Good day.");
+} else {
+  System.out.println("Good evening.");
+}
+// Outputs "Good evening."
+
+Ejemplo
+Utilice la else ifdeclaración para especificar una nueva condición si la primera condición es false.
+
+int time = 22;
+if (time < 10) {
+  System.out.println("Good morning.");
+} else if (time < 20) {
+  System.out.println("Good day.");
+} else {
+  System.out.println("Good evening.");
+}
+// Outputs "Good evening."

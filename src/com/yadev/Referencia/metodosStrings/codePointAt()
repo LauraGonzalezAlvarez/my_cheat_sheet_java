@@ -1,0 +1,22 @@
+Devuelve el Unicode del primer carácter de una cadena (el valor Unicode de "H" es 72):
+
+String myStr = "Hello";
+int result = myStr.codePointAt(0);
+System.out.println(result);
+
+Definición y uso
+El codePointAt() método devuelve el valor Unicode del carácter en el índice especificado en una cadena.
+
+El índice del primer carácter es 0, el segundo carácter es 1 y así sucesivamente.
+
+Sintaxis
+public int codePointAt(int index)
+
+Valores paramétricos
+Parameter	Description
+index	    An int value, representing the index of the character to return
+
+Detalles técnicos
+Devoluciones:	Un intvalor, que representa el valor Unicode del carácter en el índice
+Lanza:	        IndexOutOfBoundsException- si el índice es negativo o no menor que la longitud de la cadena especificada
+Versión Java:	1.5

@@ -1,0 +1,24 @@
+Averigüe si la cadena termina con los caracteres especificados:
+
+String myStr = "Hello";
+System.out.println(myStr.endsWith("Hel"));   // false
+System.out.println(myStr.endsWith("llo"));   // true
+System.out.println(myStr.endsWith("o"));     // true
+
+Definición y uso
+El endsWith() método comprueba si una cadena termina con los caracteres especificados.
+
+Sugerencia: use el método beginWith() para verificar si una cadena comienza con los
+caracteres especificados.
+
+Sintaxis
+public boolean endsWith(String chars)
+
+Valores paramétricos
+Parameter	Description
+chars	    A String, representing the character(s) to check for
+
+Detalles técnicos
+Devoluciones:	Un booleanvalor:
+                true - si la cadena termina con los caracteres especificados
+                false - si la cadena no termina con los caracteres especificados

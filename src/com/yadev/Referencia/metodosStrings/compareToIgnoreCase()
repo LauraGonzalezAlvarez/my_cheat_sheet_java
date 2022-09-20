@@ -1,0 +1,24 @@
+Compare dos cadenas, ignorando las diferencias entre mayúsculas y minúsculas:
+
+String myStr1 = "HELLO";
+String myStr2 = "hello";
+System.out.println(myStr1.compareToIgnoreCase(myStr2));
+
+Definición y uso
+El compareToIgnoreCase()método compara dos cadenas lexicográficamente, ignorando las diferencias entre mayúsculas y minúsculas.
+
+La comparación se basa en el valor Unicode de cada carácter de la cadena convertido a minúsculas.
+
+El método devuelve 0 si la cadena es igual a la otra cadena, ignorando las diferencias entre mayúsculas y minúsculas. Se devuelve un valor menor que 0 si la cadena es menor que la otra cadena (menos caracteres) y un valor mayor que 0 si la cadena es mayor que la otra cadena (más caracteres).
+
+Sintaxis
+public int compareToIgnoreCase(String string2)
+
+Valores paramétricos
+Parameter	Description
+string2	    A String, representing the other string to be compared
+
+Detalles técnicos
+Devoluciones:	Un intvalor: 0 si la cadena es igual a la otra cadena, ignorando las diferencias entre mayúsculas y minúsculas.
+                < 0 si la cadena es lexicográficamente menor que la otra cadena
+                > 0 si la cadena es lexicográficamente mayor que la otra cadena (más caracteres)

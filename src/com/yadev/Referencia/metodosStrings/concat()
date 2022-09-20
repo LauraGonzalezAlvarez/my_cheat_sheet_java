@@ -1,0 +1,18 @@
+Concatenar dos cadenas:
+
+String firstName = "John ";
+String lastName = "Doe";
+System.out.println(firstName.concat(lastName));
+
+Definición y uso
+El concat() método agrega (concatena) una cadena al final de otra cadena.
+
+Sintaxis
+public String concat(String string2)
+
+Valores paramétricos
+Parameter	Description
+string2	    A String, representing the string that should be appended to the other string
+
+Detalles técnicos
+Devoluciones:	A String, que representa el texto de las cadenas combinadas

@@ -1,0 +1,30 @@
+Usando super para llamar a la superclase de Dog (subclase):
+
+class Animal { // Superclass (parent)
+  public void animalSound() {
+    System.out.println("The animal makes a sound");
+  }
+}
+
+class Dog extends Animal { // Subclass (child)
+  public void animalSound() {
+    super.animalSound(); // Call the superclass method
+    System.out.println("The dog says: bow wow");
+  }
+}
+
+public class Main {
+  public static void main(String args[]) {
+    Animal myDog = new Dog(); // Create a Dog object
+    myDog.animalSound(); // Call the method on the Dog object
+  }
+}
+
+Definición y uso
+La superpalabra clave se refiere a objetos de superclase (principal).
+
+Se utiliza para llamar a los métodos de la superclase y para acceder al constructor de la superclase.
+
+El uso más común de la superpalabra clave es eliminar la confusión entre superclases y subclases que tienen métodos con el mismo nombre.
+
+Para comprender la superpalabra clave, debe tener conocimientos básicos de herencia y polimorfismo .

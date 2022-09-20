@@ -1,0 +1,27 @@
+Compara cadenas para averiguar si son iguales:
+
+String myStr1 = "Hello";
+String myStr2 = "Hello";
+String myStr3 = "Another String";
+System.out.println(myStr1.equals(myStr2)); // Returns true because they are equal
+System.out.println(myStr1.equals(myStr3)); // false
+
+Definición y uso
+El equals() método compara dos cadenas y devuelve verdadero si las cadenas son iguales
+y falso en caso contrario.
+
+Sugerencia: use el método compareTo() para comparar dos cadenas lexicográficamente.
+
+Sintaxis
+public boolean equals(Object anotherObject)
+
+Valores paramétricos
+
+Parameter	    Description
+anotherObject	An Object, representing the other string to be compared
+
+Detalles técnicos
+Devoluciones:	Un booleanvalor:
+                true - si las cuerdas son iguales
+                false - si las cadenas no son iguales
+Anula:	        equals en la clase Object

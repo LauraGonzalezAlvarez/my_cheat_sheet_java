@@ -1,0 +1,39 @@
+Busque una cadena para la última aparición de "planeta":
+
+String myStr = "Hello planet earth, you are a great planet.";
+System.out.println(myStr.lastIndexOf("planet"));
+
+Definición y uso
+El lastIndexOf() método devuelve la posición de la última aparición de los caracteres
+especificados en una cadena.
+
+Sugerencia:
+utilice el método indexOf para devolver la posición de la primera aparición de los
+caracteres especificados en una cadena.
+
+Sintaxis
+Hay 4 métodos lastIndexOf():
+
+public int lastIndexOf(String str)
+public int lastIndexOf(String str, int fromIndex)
+public int lastIndexOf(int char)
+public int lastIndexOf(int char, int fromIndex)
+
+Valores paramétricos
+Parameter	Description
+str	        A String value, representing the string to search for
+fromIndex	An int value, representing the index position to start the search from. If omitted, the default value is the length of the string
+char	    An int value, representing a single character, e.g 'A', or a Unicode value
+
+Detalles técnicos
+Devoluciones:	Un intvalor, que representa el índice de la primera aparición del carácter en la cadena, o -1 si nunca ocurre
+
+Ejemplo
+Encuentre la última aparición de "e" en una cadena, comenzando la búsqueda en la posición 5:
+
+public class Main {
+  public static void main(String[] args) {
+    String myStr = "Hello planet earth, you are a great planet.";
+    System.out.println(myStr.lastIndexOf("e", 5)); // 1
+  }
+}

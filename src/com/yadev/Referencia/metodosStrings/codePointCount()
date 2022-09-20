@@ -1,0 +1,25 @@
+Devuelve el número de valores Unicode encontrados en una cadena:
+
+String myStr = "Hello";
+int result = myStr.codePointCount(0, 5);
+System.out.println(result);
+
+Definición y uso
+El codePointCount()método devuelve el número de valores Unicode encontrados en una cadena.
+
+Utilice los parámetros startIndex y endIndex para especificar dónde comenzar y finalizar la búsqueda.
+
+El índice del primer carácter es 0, el segundo carácter es 1 y así sucesivamente.
+
+Sintaxis
+public int codePointCount(int startIndex, int endIndex)
+
+Valores paramétricos
+Parameter	Description
+startIndex	An int value, representing the index to the first character in the string
+endIndex	An int value, representing the index after the last character in the string
+
+Detalles técnicos
+Devoluciones:	Un intvalor, que representa el número de valores Unicode encontrados en una cadena
+Lanza:	        IndexOutOfBoundsException- si startIndex es negativo, o endindex es mayor que la longitud de la cadena, o startIndex es mayor que endIndex
+Versión Java:	1.5

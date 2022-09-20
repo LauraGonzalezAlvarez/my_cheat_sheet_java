@@ -1,0 +1,10 @@
+Java palabra clave doble
+
+Ejemplo
+double myNum = 19.99d;
+System.out.println(myNum);
+
+Definición y uso
+La doublepalabra clave es un tipo de datos que puede almacenar números fraccionarios desde 1.7e−308 hasta 1.7e+308.
+
+Tenga en cuenta que debe terminar el valor con una "d":

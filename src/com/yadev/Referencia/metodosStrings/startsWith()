@@ -1,0 +1,23 @@
+Averigüe si la cadena comienza con los caracteres especificados:
+
+String myStr = "Hello";
+System.out.println(myStr.startsWith("Hel"));   // true
+System.out.println(myStr.startsWith("llo"));   // false
+System.out.println(myStr.startsWith("o"));     // false
+
+Definición y uso
+El startsWith() método verifica si una cadena comienza con los caracteres especificados.
+
+Sugerencia: use el método extremos con () para verificar si una cadena termina con los caracteres especificados.
+
+Sintaxis
+public boolean startsWith(String chars)
+
+Valores paramétricos
+Parameter	Description
+chars	    A String, representing the character(s) to check for
+
+Detalles técnicos
+Devoluciones:	Un boolean valor:
+                true - si la cadena comienza con los caracteres especificados
+                false - si la cadena no comienza con los caracteres especificados

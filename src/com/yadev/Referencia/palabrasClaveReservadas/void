@@ -1,0 +1,31 @@
+Un método sin valores de retorno:
+
+public class Main {
+  static void myMethod() {
+    System.out.println("I just got executed!");
+  }
+
+  public static void main(String[] args) {
+    myMethod();
+  }
+}
+
+Definición y uso
+La void palabra clave especifica que un método no debe tener un valor de retorno.
+
+Más ejemplos
+Sugerencia: si desea que un método devuelva un valor, puede usar un tipo de datos primitivo
+(como int, char, etc.) en lugar de void y usar la return palabra clave dentro del método:
+
+Ejemplo
+public class Main {
+
+  static int myMethod(int x) {
+    return 5 + x;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(myMethod(3));
+  }
+}
+// Outputs 8 (5 + 3)

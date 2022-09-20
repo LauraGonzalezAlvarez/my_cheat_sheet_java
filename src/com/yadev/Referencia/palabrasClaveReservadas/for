@@ -1,0 +1,24 @@
+Imprime los números del 0 al 4:
+
+for (int i = 0; i < 5; i++) {
+  System.out.println(i);
+}
+
+Definición y uso
+El for bucle recorre un bloque de código varias veces.
+
+Del ejemplo anterior:
+
+La declaración 1 establece una variable antes de que comience el bucle (int i = 0).
+La declaración 2 define la condición para que se ejecute el bucle (debe ser menor que 5). Si la condición es verdadera, el bucle comenzará de nuevo, si es falsa, el bucle terminará.
+La declaración 3 aumenta un valor (i++) cada vez que se ejecuta el bloque de código en el bucle.
+Más ejemplos
+También hay un ciclo " for-each ", que se usa exclusivamente para recorrer elementos en una matriz :
+
+El siguiente ejemplo genera todos los elementos en la matriz de autos , usando un bucle " para cada uno ":
+
+Ejemplo
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+for (String i : cars) {
+  System.out.println(i);
+}

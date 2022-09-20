@@ -1,0 +1,18 @@
+Establezca una variable en final, para evitar que se anule/modifique:
+
+public class Main {
+  final int x = 10;
+
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    myObj.x = 25; // will generate an error: cannot assign a value to a final variable
+    System.out.println(myObj.x);
+  }
+}
+
+Definición y uso
+La final palabra clave es un modificador de no acceso utilizado para clases, atributos y métodos, lo que los hace inmodificables (imposible de heredar o anular).
+
+La final palabra clave es útil cuando desea que una variable almacene siempre el mismo valor, como PI (3.14159...).
+
+La final palabra clave se llama "modificador". Aprenderá más sobre estos en el capítulo Modificadores de Java .

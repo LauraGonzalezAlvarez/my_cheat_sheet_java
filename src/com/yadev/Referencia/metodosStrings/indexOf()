@@ -1,0 +1,41 @@
+Busque una cadena para la primera aparición de "planeta":
+
+String myStr = "Hello planet earth, you are a great planet.";
+System.out.println(myStr.indexOf("planet"));
+
+Definición y uso
+El indexOf() método devuelve la posición de la primera aparición de los caracteres
+especificados en una cadena.
+
+Sugerencia:
+utilice el método lastIndexOf para devolver la posición de la última aparición
+de los caracteres especificados en una cadena.
+
+Sintaxis
+Hay 4 métodos indexOf():
+
+public int indexOf(String str)
+public int indexOf(String str, int fromIndex)
+public int indexOf(int char)
+public int indexOf(int char, int fromIndex)
+
+Valores paramétricos
+Parameter	Description
+str	        A String value, representing the string to search for
+fromIndex	An int value, representing the index position to start the search from
+char	    An int value, representing a single character, e.g 'A', or a Unicode value
+
+Detalles técnicos
+Devoluciones:
+Un intvalor, que representa el índice de la primera aparición del carácter en la cadena, o -1 si nunca ocurre
+
+Ejemplo
+Encuentre la primera aparición de la letra "e" en una cadena, comenzando la búsqueda
+en la posición 5:
+
+public class Main {
+  public static void main(String[] args) {
+    String myStr = "Hello planet earth, you are a great planet.";
+    System.out.println(myStr.indexOf("e", 5));
+  }
+}

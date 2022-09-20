@@ -1,0 +1,24 @@
+Devuelve el Unicode del primer carácter de una cadena (el valor Unicode de "H" es 72):
+
+String myStr = "Hello";
+int result = myStr.codePointBefore(1);
+System.out.println(result);
+
+Definición y uso
+El codePointBefore()método devuelve el valor Unicode del carácter antes del índice especificado en una cadena.
+
+El índice del primer carácter es 1, el segundo carácter es 2 y así sucesivamente.
+
+Nota: El valor 0 generará un error, ya que es un número negativo (fuera de alcance).
+
+Sintaxis
+public int codePointBefore(int index)
+
+Valores paramétricos
+Parameter	Description
+index	    An int value, representing the index following the Unicode that should be returned
+
+Detalles técnicos
+Devoluciones:	Un intvalor, que representa el valor Unicode antes del índice especificado
+Lanza:	        IndexOutOfBoundsException- si el índice es negativo o no menor que la longitud de la cadena especificada
+Versión Java:	1.5

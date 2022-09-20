@@ -1,0 +1,36 @@
+Lanza una excepción si la edad es menor de 18 años (imprime "Acceso denegado").
+Si la edad es mayor de 18 años, escriba "Acceso concedido":
+
+public class Main {
+  static void checkAge(int age) {
+    if (age < 18) {
+      throw new ArithmeticException("Access denied - You must be at least 18 years old.");
+    }
+    else {
+      System.out.println("Access granted - You are old enough!");
+    }
+  }
+
+  public static void main(String[] args) {
+    checkAge(15); // Set age to 15 (which is below 18...)
+  }
+}
+
+Definición y uso
+La throw palabra clave se utiliza para crear un error personalizado.
+
+La throw instrucción se utiliza junto con un tipo de excepción.
+Hay muchos tipos de excepciones disponibles en Java:
+ArithmeticException, ClassNotFoundException, ArrayIndexOutOfBoundsException, SecurityException, etc.
+
+El tipo de excepción a menudo se usa junto con un método personalizado, como en el ejemplo anterior.
+
+Diferencias entre throw y throws:
+
+throw	                                        throws
+Used to throw an exception for a method	        Used to indicate what exception type may be thrown by a method
+Cannot throw multiple exceptions	            Can declare multiple exceptions
+
+Syntax:                                         Syntax:
+throw is followed by an object (new type)       throws is followed by a class
+used inside the method                          and used with the method signature

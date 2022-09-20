@@ -1,0 +1,14 @@
+Compruebe si un objeto es una instancia de una clase específica:
+
+public class Main {
+  public static void main(String[] args) {
+    Main myObj = new Main();
+    System.out.println(myObj instanceof Main); // returns true
+  }
+}
+
+Definición y uso
+La instanceof palabra clave comprueba si un objeto es una instancia de una clase específica
+o una interfaz.
+
+La palabra clave instanceof compara la instancia con el tipo. El valor devuelto es trueo false.

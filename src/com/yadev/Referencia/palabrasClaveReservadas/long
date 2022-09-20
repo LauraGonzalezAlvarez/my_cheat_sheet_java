@@ -1,0 +1,7 @@
+long myNum = 15000000000L;
+System.out.println(myNum);
+
+Definición y uso
+La long palabra clave es un tipo de datos que puede almacenar números enteros desde -9223372036854775808 hasta 9223372036854775808.
+
+Tenga en cuenta que debe terminar el valor con una "L":

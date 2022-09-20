@@ -1,0 +1,6 @@
+short myNum = 5000;
+System.out.println(myNum);
+
+Definición y uso
+La short palabra clave es un tipo de datos que puede almacenar
+números enteros desde -32768 hasta 32767.
